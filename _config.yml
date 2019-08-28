@@ -13,23 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Y's dev log and so on.
-email: sy@mk85.net
-description: >- # this means to ignore newlines until "baseurl:"
-  "Software developments, other creations, just hobbies, miscellanies, and so on..."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: y_alt
-github_username:  ysdev
+title:             ysdev.github.io
+email:             sy@mk85.net
+description:       >- # this means to ignore newlines until "baseurl:"
+
+baseurl:           "" # the subpath of your site, e.g. /blog
+url:               "https://ysdev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:  y_alt
+github_username:   ysdev
 
 # Build settings
-markdown: kramdown
-theme: minima
+markdown:          kramdown
+theme:             jekyll-theme-minimal
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 # Google Analytics
-google_analytics: UA-146546937-1
+google_analytics:  UA-146546937-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
