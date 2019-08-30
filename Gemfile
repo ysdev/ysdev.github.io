@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 #gem "jekyll", "~> 3.8.5"
 
-# [for local only] use access token to GitHub as env
+# [for local only] use access token to GitHub as env JEKYLL_GITHUB_TOKEN
 gem "dotenv"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
